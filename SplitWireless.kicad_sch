@@ -5,54 +5,88 @@
 	(uuid "4fcbb299-c1a9-4c88-b4ea-ec8db3830448")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Battery"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "PCM_4ms_Connector:Conn_01x02"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Connector:Pins_1x02_2.54mm_TH"
+				(at -0.635 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
+				(at -2.54 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Value" "Battery"
-				(at 2.54 0 0)
+			(property "Manufacturer" "TAD"
+				(at -2.54 -9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
+			(property "Part Number" "1-0201FBV0T"
+				(at -2.54 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multiple-cell battery"
+			(property "ki_keywords" "Conn_01x02"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +95,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "V"
+			(property "ki_fp_filters" "Connector*:*_??x*mm* Connector*:*1x??x*mm* Pin?Header?Straight?1X* Pin?Header?Angled?1X* Socket?Strip?Straight?1X* Socket?Strip?Angled?1X*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,156 +104,44 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "DC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "batt voltage-source cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_0_1"
+			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -1.27)
-					(end 2.286 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -2.032)
-					(end 1.524 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Battery_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -235,9 +157,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1530,130 +1452,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ScottoKeebs:Placeholder_Resistor"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Resistor"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Placeholder_Resistor_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Placeholder_Resistor_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ScottoKeebs:Placeholder_Switch"
 			(pin_numbers
 				(hide yes)
@@ -1836,12 +1634,6 @@
 		(uuid "186b52ef-e7d1-46c2-935e-0eb7131b0a58")
 	)
 	(junction
-		(at 116.84 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c229609-0b3d-4a56-b9ce-378a41cdd3db")
-	)
-	(junction
 		(at 148.59 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1930,12 +1722,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cb22d26-7340-4899-8a6d-a70392128a3f")
-	)
-	(junction
-		(at 106.68 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1ba6fb0-efc8-4450-a42b-8f2b9066c4b8")
 	)
 	(junction
 		(at 140.97 71.12)
@@ -2027,6 +1813,14 @@
 		(color 0 0 0 0)
 		(uuid "fffe7d69-0aa7-49fa-aee5-213db650d173")
 	)
+	(no_connect
+		(at 72.39 53.34)
+		(uuid "6b3b1e93-e031-4ea7-9983-2902cfc1fb6a")
+	)
+	(no_connect
+		(at 72.39 50.8)
+		(uuid "aa2568e0-2e57-4038-bc33-86a128c3927f")
+	)
 	(wire
 		(pts
 			(xy 138.43 81.28) (xy 146.05 81.28)
@@ -2096,16 +1890,6 @@
 			(type default)
 		)
 		(uuid "1df15e3f-881b-4db4-b22a-533b15064c74")
-	)
-	(wire
-		(pts
-			(xy 71.12 55.88) (xy 72.39 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e649cd3-00b2-4b2b-b2b3-cf0de8b2276b")
 	)
 	(wire
 		(pts
@@ -2269,26 +2053,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 55.88) (xy 116.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "630ff9d5-79bb-4ab0-b607-4807a5669baf")
-	)
-	(wire
-		(pts
-			(xy 109.22 46.99) (xy 109.22 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ce354d7-974c-4767-a140-3e917f1e2803")
-	)
-	(wire
-		(pts
 			(xy 140.97 52.07) (xy 140.97 57.15)
 		)
 		(stroke
@@ -2389,7 +2153,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 39.37) (xy 106.68 44.45)
+			(xy 106.68 39.37) (xy 106.68 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2416,16 +2180,6 @@
 			(type default)
 		)
 		(uuid "801eb830-e1b8-4894-84a7-4f8c705e3f33")
-	)
-	(wire
-		(pts
-			(xy 128.27 39.37) (xy 128.27 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83719c54-d9bb-43da-9115-b748fcb24630")
 	)
 	(wire
 		(pts
@@ -2499,17 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 44.45) (xy 71.12 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0067462-6b6c-4300-a666-3844801167ad")
-	)
-	(wire
-		(pts
-			(xy 118.11 39.37) (xy 116.84 39.37)
+			(xy 116.84 39.37) (xy 120.65 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2549,6 +2293,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 39.37) (xy 120.65 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adea39d9-f3c7-430c-936f-2a67c718f676")
+	)
+	(wire
+		(pts
 			(xy 148.59 57.15) (xy 148.59 71.12)
 		)
 		(stroke
@@ -2559,26 +2313,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 44.45) (xy 71.12 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf37d03e-15df-4437-b6af-ee24a1aea976")
-	)
-	(wire
-		(pts
-			(xy 88.9 44.45) (xy 106.68 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c04c914c-0fe0-44f3-a062-d879ee443a68")
-	)
-	(wire
-		(pts
 			(xy 146.05 67.31) (xy 153.67 67.31)
 		)
 		(stroke
@@ -2586,16 +2320,6 @@
 			(type default)
 		)
 		(uuid "c20076c4-8d2b-49bb-aef8-756b612fbe1a")
-	)
-	(wire
-		(pts
-			(xy 109.22 53.34) (xy 102.87 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c376b2c1-2026-49ce-acbc-2f3eb2e08726")
 	)
 	(wire
 		(pts
@@ -2619,26 +2343,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 44.45) (xy 106.68 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d016befc-3b1e-47a2-a916-19a13ba2866a")
-	)
-	(wire
-		(pts
-			(xy 128.27 46.99) (xy 109.22 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d287aaf2-1beb-437c-9265-f3b2f66e6af9")
-	)
-	(wire
-		(pts
 			(xy 106.68 50.8) (xy 102.87 50.8)
 		)
 		(stroke
@@ -2649,16 +2353,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 55.88) (xy 116.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d640a7fa-5ff3-4be6-825a-640396113134")
-	)
-	(wire
-		(pts
 			(xy 156.21 85.09) (xy 156.21 99.06)
 		)
 		(stroke
@@ -2666,16 +2360,6 @@
 			(type default)
 		)
 		(uuid "ead10119-5411-42aa-afcf-03d108cf003e")
-	)
-	(wire
-		(pts
-			(xy 73.66 36.83) (xy 88.9 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2514562-0e82-45e4-95ab-8ac7a4f44319")
 	)
 	(global_label "Row2"
 		(shape input)
@@ -2721,6 +2405,28 @@
 			)
 		)
 	)
+	(global_label "Col4"
+		(shape input)
+		(at 102.87 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f388c46-1a31-4dd3-8bce-07c4699f0254")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.1489 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col1"
 		(shape input)
 		(at 163.83 52.07 90)
@@ -2745,7 +2451,7 @@
 	)
 	(global_label "gnd"
 		(shape input)
-		(at 109.22 46.99 90)
+		(at 102.87 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2755,7 +2461,51 @@
 		)
 		(uuid "30cf66b3-e0d0-4d16-8b76-0cbcea71ba4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 40.5578 90)
+			(at 109.3022 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "gnd"
+		(shape input)
+		(at 72.39 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37e5cf5d-9c85-41d1-bc81-a7c5d1380be3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.9578 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col2"
+		(shape input)
+		(at 102.87 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bb0f45e-9fa2-4c9d-9197-d07062ff86e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.1489 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,6 +2625,28 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape input)
+		(at 102.87 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81d8abcb-d2fd-4bc7-9278-208659bf42d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.3023 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col3"
 		(shape input)
 		(at 148.59 52.07 90)
@@ -2941,68 +2713,24 @@
 			)
 		)
 	)
-	(global_label "Col3"
+	(global_label "gnd"
 		(shape input)
-		(at 102.87 68.58 0)
+		(at 120.65 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "8a6b607f-f00d-49a2-9dfb-2c23b7814d46")
+		(uuid "86b42a85-1130-4220-888c-94b7a4ea908c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1489 68.58 0)
+			(at 114.2178 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col2"
-		(shape input)
-		(at 102.87 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92d85f5e-8586-4e64-96d6-a6b157ebc1c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1489 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col5"
-		(shape input)
-		(at 102.87 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9c7283cf-d8b2-4f70-a9fc-b551f7ac645b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1489 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3051,6 +2779,50 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape input)
+		(at 116.84 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b08903ba-9d13-4dd6-984a-a3f3a7e106bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.4077 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col5"
+		(shape input)
+		(at 102.87 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc697a9d-b4e8-4f48-93d7-884ccf56ef7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.1489 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "gnd"
 		(shape input)
 		(at 85.09 99.06 90)
@@ -3086,28 +2858,6 @@
 		(uuid "c5801f6d-ad9a-45cb-8c96-ad15462b62dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 44.7911 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col4"
-		(shape input)
-		(at 102.87 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c5bea8ab-dbd6-4e99-90b8-26658d2dcdfb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1489 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,6 +2968,50 @@
 		(uuid "de251569-3a12-45ca-9099-7a9546f91db7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.8242 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "gnd"
+		(shape input)
+		(at 72.39 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee87c273-6fd4-4d4d-adc6-d26f48f76b89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.9578 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col3"
+		(shape input)
+		(at 102.87 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3281ab4-4f53-4f61-a505-71d0821e08ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.1489 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,143 +3336,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Resistor")
-		(at 88.9 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bc7419e-f660-4ed7-86ed-466bf01040cc")
-		(property "Reference" "R1"
-			(at 91.44 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M"
-			(at 91.44 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0805"
-			(at 90.678 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 88.9 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8b288b6-d971-43f8-a0dc-58c571f9cfa2")
-		)
-		(pin "2"
-			(uuid "cd0afa73-0043-4e23-88ac-169f46d8f2c9")
-		)
-		(instances
-			(project ""
-				(path "/4fcbb299-c1a9-4c88-b4ea-ec8db3830448"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Resistor")
-		(at 73.66 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cb69aff-e809-4999-af82-87c8e5341aca")
-		(property "Reference" "R2"
-			(at 80.01 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470K"
-			(at 77.47 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0805"
-			(at 71.882 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d00d0445-897b-4294-ace8-d6551fb1dec0")
-		)
-		(pin "1"
-			(uuid "2c8bf335-1c42-48cf-bbae-f30d935afdbd")
-		)
-		(instances
-			(project ""
-				(path "/4fcbb299-c1a9-4c88-b4ea-ec8db3830448"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 158.75 59.69 0)
 		(unit 1)
@@ -3887,101 +3544,6 @@
 			(project "SplitWireless"
 				(path "/4fcbb299-c1a9-4c88-b4ea-ec8db3830448"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery")
-		(at 123.19 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f935308-6d72-4565-a820-13794f7f2d81")
-		(property "Reference" "BT1"
-			(at 122.6185 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery"
-			(at 122.6185 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Scotto:Battery"
-			(at 121.666 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.666 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiple-cell battery"
-			(at 123.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 123.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 123.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 123.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d9a5620-47d7-4512-93d6-c49e8919dfdb")
-		)
-		(pin "1"
-			(uuid "4da853e4-0266-404a-a23a-f06d88ac29ca")
-		)
-		(instances
-			(project ""
-				(path "/4fcbb299-c1a9-4c88-b4ea-ec8db3830448"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -4343,6 +3905,106 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_4ms_Connector:Conn_01x02")
+		(at 125.73 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42d0477e-07ed-4268-b815-6878fcfecefc")
+		(property "Reference" "J3"
+			(at 128.27 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 128.27 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Connector_1x02_JST-PH"
+			(at 125.095 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
+			(at 125.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
+			(at 123.19 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAD"
+			(at 123.19 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1-0201FBV0T"
+			(at 123.19 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5005443c-9fd7-4273-a34c-8c45f2e58ebd")
+		)
+		(pin "2"
+			(uuid "7898d32d-f775-48a7-a86b-0b2b4ae6bf63")
+		)
+		(instances
+			(project ""
+				(path "/4fcbb299-c1a9-4c88-b4ea-ec8db3830448"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Devices:Push_Button")
 		(at 121.92 55.88 0)
 		(unit 1)
@@ -4368,7 +4030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA"
 			(at 121.793 59.055 0)
 			(effects
 				(font
