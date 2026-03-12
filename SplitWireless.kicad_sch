@@ -3364,7 +3364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 158.75 59.69 0)
 			(effects
 				(font
@@ -3435,7 +3435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 173.99 73.66 0)
 			(effects
 				(font
@@ -3578,7 +3578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 135.89 87.63 0)
 			(effects
 				(font
@@ -3649,7 +3649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 158.75 101.6 0)
 			(effects
 				(font
@@ -3720,7 +3720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 166.37 87.63 0)
 			(effects
 				(font
@@ -3791,7 +3791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 143.51 87.63 0)
 			(effects
 				(font
@@ -3862,7 +3862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 166.37 59.69 0)
 			(effects
 				(font
@@ -4101,7 +4101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 151.13 59.69 0)
 			(effects
 				(font
@@ -4172,7 +4172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 173.99 101.6 0)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 158.75 87.63 0)
 			(effects
 				(font
@@ -4945,7 +4945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 135.89 59.69 0)
 			(effects
 				(font
@@ -5088,7 +5088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 151.13 73.66 0)
 			(effects
 				(font
@@ -5235,7 +5235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 158.75 73.66 0)
 			(effects
 				(font
@@ -5306,7 +5306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 166.37 73.66 0)
 			(effects
 				(font
@@ -5593,7 +5593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -6234,7 +6234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 173.99 87.63 0)
 			(effects
 				(font
@@ -6305,7 +6305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 151.13 87.63 0)
 			(effects
 				(font
@@ -6376,7 +6376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 143.51 73.66 0)
 			(effects
 				(font
@@ -6585,7 +6585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 173.99 59.69 0)
 			(effects
 				(font
@@ -6656,7 +6656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 143.51 59.69 0)
 			(effects
 				(font
@@ -7008,7 +7008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Choc_Hotswap_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Hotswap_1.00u"
 			(at 166.37 101.6 0)
 			(effects
 				(font
