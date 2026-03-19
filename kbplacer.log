@@ -2,4 +2,74 @@ INFO: kbplacer_plugin_action.py:73: Plugin version: 0.15
 INFO: kbplacer_plugin_action.py:74: Python version: '3.14.3 (main, Feb 13 2026, 15:31:44) [GCC 15.2.1 20260209]'
 INFO: kbplacer_plugin_action.py:75: KiCad version: 9.0.7 with 4.2.4 gtk3 (phoenix) wxWidgets 3.2.9
 INFO: kbplacer_dialog.py:689: Language: en
-INFO: kbplacer_plugin_action.py:91: GUI state: {"layout_path": "", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+DEBUG: key_placer.py:141: Switches by nets: defaultdict(<class 'list'>, {frozenset({'Net-(U2-B+)', 'Net-(J3-Pin_2)'}): ['SW1'], frozenset({'gnd', 'RST'}): ['SW2']})
+DEBUG: key_placer.py:145: Diodes by switch: {}
+INFO: key_placer.py:1123: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='', start_index=-1)]
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (219599409, 74472300)
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (219774409, 83622300)
+DEBUG: key_placer.py:887: Placing additional elements for SW1
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (219599409, 74472300)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in /home/lt-arch/SplitWireless/SplitWireless.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW2
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (219774409, 83622300)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in /home/lt-arch/SplitWireless/SplitWireless.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:932: Routing gnd pads
+DEBUG: board_modifier.py:548: Routing at F.Cu layer
+DEBUG: board_modifier.py:565: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:628: Routing pad 'J1:1' at (213164409, 72572300) with pad 'J3:1' at (212734459, 77697300) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(213164409, 72572300), (213164409, 77267350)]
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(213164409, 77267350), (212734459, 77697300)]
+INFO: board_modifier.py:469: Track added
+DEBUG: board_modifier.py:548: Routing at F.Cu layer
+DEBUG: board_modifier.py:565: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:628: Routing pad 'U2:4' at (201704409, 47802300) with pad 'J1:1' at (213164409, 72572300) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(201704409, 47802300), (201704409, 61112300)]
+DEBUG: board_modifier.py:474: Could not add track segment due to detected collision
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(201704409, 47802300), (213164409, 59262300)]
+DEBUG: board_modifier.py:474: Could not add track segment due to detected collision
+DEBUG: board_modifier.py:548: Routing at F.Cu layer
+DEBUG: board_modifier.py:565: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:628: Routing pad 'J3:1' at (212734459, 77697300) with pad 'SW2:2' at (218924409, 80997300) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(212734459, 77697300), (215624409, 77697300)]
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(215624409, 77697300), (218924409, 80997300)]
+INFO: board_modifier.py:469: Track added
+DEBUG: key_placer.py:932: Routing Net-(U2-B+) pads
+DEBUG: board_modifier.py:548: Routing at F.Cu layer
+DEBUG: board_modifier.py:565: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:628: Routing pad 'U2:24' at (216944409, 40182300) with pad 'SW1:1' at (218169409, 76722300) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(216944409, 40182300), (216944409, 75497300)]
+DEBUG: board_modifier.py:474: Could not add track segment due to detected collision
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(216944409, 40182300), (218169409, 41407300)]
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(218169409, 41407300), (218169409, 76722300)]
+DEBUG: board_modifier.py:474: Could not add track segment due to detected collision
+DEBUG: key_placer.py:932: Routing Net-(J3-Pin_2) pads
+DEBUG: board_modifier.py:548: Routing at F.Cu layer
+DEBUG: board_modifier.py:565: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:628: Routing pad 'J3:2' at (212734459, 79697300) with pad 'SW1:2' at (218169409, 73722300) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(212734459, 79697300), (212734459, 79157250)]
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(212734459, 79157250), (218169409, 73722300)]
+DEBUG: board_modifier.py:474: Could not add track segment due to detected collision
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(212734459, 79697300), (218169409, 74262350)]
+DEBUG: board_modifier.py:474: Could not add track segment due to detected collision
+DEBUG: key_placer.py:932: Routing RST pads
+DEBUG: board_modifier.py:548: Routing at F.Cu layer
+DEBUG: board_modifier.py:565: Netclass: Default, track width: 200000
+DEBUG: board_modifier.py:628: Routing pad 'U2:22' at (216944409, 45262300) with pad 'SW2:1' at (220624409, 80997300) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(216944409, 45262300), (216944409, 77317300)]
+DEBUG: board_modifier.py:474: Could not add track segment due to detected collision
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(216944409, 45262300), (220624409, 48942300)]
+INFO: board_modifier.py:469: Track added
+INFO: board_modifier.py:464: Adding track segment (F.Cu): [(220624409, 48942300), (220624409, 80997300)]
+DEBUG: board_modifier.py:474: Could not add track segment due to detected collision
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing 3b3724b4-4e95-4595-851e-56df0388b6fc
+INFO: key_placer.py:526: Removing c2048d27-e23f-404b-91f5-0dc1759ad9a4
+INFO: key_placer.py:526: Removing 6078f1b6-9a5d-42aa-86ce-f066dbea3d2d
+INFO: key_placer.py:514: Removing dangling tracks

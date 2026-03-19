@@ -2383,9 +2383,9 @@
 			)
 		)
 	)
-	(global_label "Col1"
+	(global_label "Col2"
 		(shape input)
-		(at 102.87 63.5 0)
+		(at 102.87 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2393,9 +2393,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1c5445d7-aea8-4187-8e6d-f30ec0a91cb4")
+		(uuid "0e795195-fba0-44ba-8898-4f0acdc8c454")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1489 63.5 0)
+			(at 110.1489 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,28 +2493,6 @@
 			)
 		)
 	)
-	(global_label "Col2"
-		(shape input)
-		(at 102.87 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3bb0f45e-9fa2-4c9d-9197-d07062ff86e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1489 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "pin6"
 		(shape input)
 		(at 92.71 99.06 90)
@@ -2581,6 +2559,28 @@
 			)
 		)
 	)
+	(global_label "Col0"
+		(shape input)
+		(at 102.87 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72f97e42-ad52-40fb-a8f4-ef3b83b4b9fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.1489 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "pin8"
 		(shape input)
 		(at 72.39 76.2 180)
@@ -2599,6 +2599,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col1"
+		(shape input)
+		(at 102.87 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80283f2c-ffc8-44c9-bcbe-afb4c81b858f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.1489 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2929,28 +2951,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col0"
-		(shape input)
-		(at 102.87 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6aaf608-7ab6-4ff3-ac32-57902774b62a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1489 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
